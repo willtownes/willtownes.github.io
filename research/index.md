@@ -24,15 +24,15 @@ I am a fan of open source collaboration and plan on using software engineering t
 * Missing Data- I am somewhat familiar with the EM algorithm and the Bayesian approach of using "latent parameters" but I'd like to learn more about the state-of-the-art, and especially how to address computational issues that arise
 
 ## Computation
-* building bioinformatics "pipelines"
+* Graph data (eg, gene regulatory networks), computing and stats on large, non-relational databases
 * High-dimensional data techniques
 * Machine Learning- I took a Coursera class on this and want to get a deeper, more theoretical understanding. I'd like to also trying some of the tools like elastic net, SVMs, etc. on different kinds of large datasets.
-* Graph data (eg, social networks), computing and stats on large, non-relational databases
 * The Julia programming language- I am fond of Python, but this new language is very exciting
 
 ## Biology
+* Gene co-expression and regulatory networks
 * Metagenomics- this seems like an exciting place for testing ecological hypotheses that could have relevance to health outcomes. For example, ecologists often debate whether diversity of a system affects its stability. I wonder if higher microbiome diversity is associated with stability? Or, in another example, is someone who eats a wide variety of types of food (such as an international traveler) more likely to have a diverse gut flora than someone who doesn't travel?
-* Epigenetics- how can we measure epigenetic modifications?
+* Epigenetics
 * Mental Health
 * Cancer
-* Infectious Disease- everyone worries about Ebola, but Influenza is probably a bigger threat. I would like to learn more about statistical methods for inferring parameters of models like S-I-R.
+* Infectious Disease- host genome to viral genome analysis, incorporating zoonotic host dynamics in evolutionary models
