@@ -13,6 +13,7 @@ If you will be using other command line tools other than just plink, and/or if y
 
     brew tap homebrew/science
     brew install plink
+
 Homebrew/science is a "tap", meaning it contains specialized packages (also known as "formulas") related to science not found in the default, mainstream Homebrew repository. You can read more about it on the github repository [Homebrew/science](https://github.com/Homebrew/homebrew-science/blob/master/README.md)
 
 ### Scenario II: I will use command line rarely
@@ -27,6 +28,11 @@ This option is the quickest, easiest way to get plink working on mac, but it may
 4. We are going to copy the `plink` executable into a folder that is in the system's **PATH** variable. There are ways to modify the **PATH** variable such as by altering the file `~/.bash_profile`. However, this method just uses the default **PATH** for simplicity. Run the following command
     
     ``cp plink /usr/local/bin/plink``
+
+    If you get an error about permissions, try this instead (it will ask for your password):
+
+    ``sudo cp plink /usr/local/bin/plink``
+
 
 5. Now close the terminal and a new terminal window in an arbitrary directory. Type `plink` and hit enter to see if the computer will run the program as expected.
 
