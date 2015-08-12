@@ -8,6 +8,7 @@ Links
 
 * [Zotero](https://www.zotero.org/willtownes)- research bibliography
 * [Github](https://github.com/willtownes)- code repositories
+* [Google Profile](https://profiles.google.com/will.townes/about)
 * [Filibot](https://www.flickr.com/photos/filibot)- a collection of images relevant to botany in the Philippines and Southeast Asia.
 * [Delicious Bookmarks](https://delicious.com/will.townes)
 * [Linkedin Profile](https://www.linkedin.com/in/willtownes1)
