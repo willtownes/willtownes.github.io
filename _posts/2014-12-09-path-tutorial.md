@@ -11,8 +11,12 @@ If you don't know anything about using the command line, check out Zed Shaw's tu
 ### Scenario I: I will use command line frequently
 If you will be using other command line tools other than just plink, and/or if you anticipate needing to frequently update your command line tools to newer versions over time, then [Homebrew](http://brew.sh/) is an integrated solution. Go to the Homebrew site and follow their instructions for installing the homebrew package manager. Once this is completed, go to the terminal and type the following to install Plink
 
-    brew tap homebrew/science
-    brew install plink
+{% highlight bash %}
+
+    ``brew tap homebrew/science
+    brew install plink``
+
+{% endhighlight %}
 
 Homebrew/science is a "tap", meaning it contains specialized packages (also known as "formulas") related to science not found in the default, mainstream Homebrew repository. You can read more about it on the github repository [Homebrew/science](https://github.com/Homebrew/homebrew-science/blob/master/README.md)
 
