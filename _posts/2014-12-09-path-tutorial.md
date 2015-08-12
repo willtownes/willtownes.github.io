@@ -13,8 +13,8 @@ If you will be using other command line tools other than just plink, and/or if y
 
 {% highlight bash %}
 
-    ``brew tap homebrew/science
-    brew install plink``
+    brew tap homebrew/science
+brew install plink
 
 {% endhighlight %}
 
