@@ -5,12 +5,19 @@
 <!--MathJax to support LaTeX-->
 {% if page.external contains 'latex' %}
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
+<script type="text/x-mathjax-config">
+//MathJax.Hub.Config({
+//   tex2jax: {
+//        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+//    }
+//});
+
 MathJax.Hub.Config({
-tex2jax: {
-skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-}
+    tex2jax: {
+        inlineMath: [['$','$'],['\\(','\\)']]
+    }
 });
+
 MathJax.Hub.Queue(function() {
 var all = MathJax.Hub.getAllJax(), i;
 for(i=0; i < all.length; i += 1) {
