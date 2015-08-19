@@ -3,9 +3,10 @@ title: Why does Lehmann-Scheffe Theorem need Completeness?
 layout: post
 external: [latex]
 ---
+
 The [Lehmann-Scheffe theorem](https://en.wikipedia.org/wiki/Lehmann%E2%80%93Scheff%C3%A9_theorem) says that if we have an unbiased estimator $\newcommand{\E}{\mathrm{E}}
 \newcommand{\Var}{\mathrm{Var}}
-\newcommand{\Cov}{\mathrm{Cov}} Z$ and a complete sufficient statistic $T$, then the estimator $\phi(T) = \E[Z|T]$ is a uniform minimum variance unbiased estimator (UMVUE). In most sane scenarios, complete sufficient statistics are minimal sufficient. But proving completeness can be a pain sometimes, while proving minimal sufficiency is relatively easy. I wonder what would happen if we took a minimal sufficient statistic, say $S$, that is not necessarily complete, and tried to base estimators on it. Note that an example where minimal, but not complete, sufficient statistics can arise is in curve exponential families, so it's not a totally ridiculous proposition.
+\newcommand{\Cov}{\mathrm{Cov}} Z$ and a complete sufficient statistic $T$, then the estimator $\phi(T) = \E[Z|T]$ is a uniform minimum variance unbiased estimator (UMVUE). In most sane scenarios, complete sufficient statistics are minimal sufficient. But proving completeness can be a pain sometimes, while proving minimal sufficiency is relatively easy. I wonder what would happen if we took a minimal sufficient statistic, say $S$, that is not necessarily complete, and tried to base estimators on it. Note that an example where minimal, but not complete, sufficient statistics can arise is in curved exponential families.
 
 Suppose as in the Lehmann-Scheffe proof, we have an unbiased estimator $Z_1$ of the parameter $\theta$ and the minimal sufficient statistic (MSS) $S$. Consider the estimator given by $W_1(S) = \E[Z_1|S]$. By the [Rao-Blackwell Theorem](https://en.wikipedia.org/wiki/Rao%E2%80%93Blackwell_theorem), since $S$ is sufficient, we have that $\Var[W_1]\leq\Var[Z_1]$. Now, since $S$ is MSS, it is a function of every other sufficient statistic. This implies that for any other sufficient statistic $R$, 
 
@@ -33,16 +34,16 @@ This is a convex combination of the arithmetic and geometric means of $v_1$ and 
 
 Now suppose more realistically that $\Cov[W_1,W_2]<\sqrt{v_1v_2}$. Then in this case it may be possible that $\Var[U]< v_1$. We can find values of $v_1,v_2$ to satisfy this requirement. For convenience let the correlation coefficient $\rho = \Cov[W_1,W_2]/\sqrt{v_1v_2}$. We are interested in finding combinations of $\rho,v_1,v_2$ which satisfy
 
-$$\Var[U]  = (1/2)\frac{v_1+v_2}{2}+(1/2)\sqrt{v_1v_2} < v_1$$
+$$\Var[U]  = (1/2)\frac{v_1+v_2}{2}+(1/2)\rho\sqrt{v_1v_2} < v_1$$
 
 The inequality can be reduced to the form
 
 $$3v_1-v_2-2\rho\sqrt{v_1v_2} > 0$$
 
-A simple solution is shown when $\rho=0$. In this case, if $v_2 < 3v_1$, then $\Var[U] < v_1$. Other solutions can be found for various fixed values of $\rho$. For example, if $\rho=-1$, then $\Var[U] < v_1$ whenever $v_2 < 9v_1$. 
+Using [Wolfram Alpha](http://www.wolframalpha.com/input/?i=3u-v-2psqrt%28u*v%29+%3E+0%3B+-1%3Cp%3C1%3B+u%3E0%3B+v%3E0) we see that solutions to this inequality exist and are of the form
 
-From another perspective, suppose $\Var[W_1]=\Var[W_2] = v_1$, but $\rho<1$. Then we will have
+$$v_2 < 3v_1 + 2\rho^2 v_1 \pm 2v_1\rho\sqrt{\rho^2+3}$$
 
-$$\Var[U] = (1/2)\frac{v_1+v_1}{2} + (1/2)\rho\sqrt{v_1v_1} = v_1(1+\rho) < v_1 
+Clearly, we have failed to obtain any general result by conditioning on the minimal sufficient statistic.
 
-From the preceding discussion, we have the result that for any two unbiased, Rao-Blackwell optimized estimators $W_1$ and $W_2$
+Based on the above discussion, we conclude that minimal sufficiency is not enough to guarantee any estimator resulting from application of the Rao-Blackwell Theorem has optimal (smallest) variance. This reinforces the importance of the completeness property in proving an unbiased estimator has optimal variance using Lehmann-Scheffe.
