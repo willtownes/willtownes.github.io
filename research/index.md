@@ -3,16 +3,24 @@ title: Research Interests
 layout: default
 ---
 
-## Bio Sketch
-I am a 1st year PhD student in Biostatistics at Harvard University. I am interested in biological problems that require both computational and statistical methods. My academic background is:
+### Current Projects
 
-* B.S. Biology, Washington & Lee University. Studied abroad in Monteverde, Costa Rica
-* Tropical Ecology research in Bataan, Philippines on a Fulbright grant
-* M.S. Math and Statistics, Georgetown University. Completed while working full-time as a software tester
+#### Family Based Association Tests for Rare Variants
+with Dr. [Christoph Lange](http://www.hsph.harvard.edu/christoph-lange/)
 
-I am a fan of open source collaboration and plan on using software engineering techniques like automated testing, version control and continuous integration in my future research. Here are some things I would like to learn more about during my time in graduate school:
+#### Network Connectivity and Infectious Disease Modeling
+with Dr. [JP Onnela](http://www.hsph.harvard.edu/onnela-lab/) and [Tamara Louie](http://tklouie.github.io/)
 
-## Statistics
+#### Single Cell RNA-Seq
+with Dr. [Martin Aryee](http://aryee.mgh.harvard.edu/), Dr. [Rafa Irizarry](http://rafalab.dfci.harvard.edu/), and Dr. [Stephanie Hicks](http://www.stephaniehicks.com/)
+
+#### Ebola Growth Curves and Socioeconomic Factors
+
+---
+
+### Other/ Miscellaneous Interesting Stuff
+
+#### Statistics
 * Bayesian hierarchical modeling and probabilistic graphical models
 * Bayesian nonparametrics, including all the stochastic processes theory beneath it (Dirichlet processes, etc)
 * Nonparametric and semiparametric statistics in general.
@@ -23,13 +31,13 @@ I am a fan of open source collaboration and plan on using software engineering t
 * Causal Inference- I don't know much about it currently but it seems interesting.
 * Missing Data- I am somewhat familiar with the EM algorithm and the Bayesian approach of using "latent parameters" but I'd like to learn more about the state-of-the-art, and especially how to address computational issues that arise
 
-## Computation
+#### Computation
 * Graph data (eg, gene regulatory networks), computing and stats on large, non-relational databases
 * High-dimensional data techniques
 * Machine Learning- I took a Coursera class on this and want to get a deeper, more theoretical understanding. I'd like to also trying some of the tools like elastic net, SVMs, etc. on different kinds of large datasets.
 * The Julia programming language- I am fond of Python, but this new language is very exciting
 
-## Biology
+#### Biology
 * Gene co-expression and regulatory networks
 * Metagenomics- this seems like an exciting place for testing ecological hypotheses that could have relevance to health outcomes. For example, ecologists often debate whether diversity of a system affects its stability. I wonder if higher microbiome diversity is associated with stability? Or, in another example, is someone who eats a wide variety of types of food (such as an international traveler) more likely to have a diverse gut flora than someone who doesn't travel?
 * Epigenetics
