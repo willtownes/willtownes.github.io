@@ -22,6 +22,7 @@ Links
 ### Other
 * [Filibot](https://www.flickr.com/photos/filibot)- a collection of images relevant to botany in the Philippines and Southeast Asia, from my former mentor, Leonardo Co.
 * [Nathan Welch](http://www.nathangwelch.com/)- Georgetown classmate, now at University of Washington.
+* [Jeremiah Liu](http://jereliu.github.io/)- classmate at Harvard, studying together for the qualifying exam.
 
 
 
