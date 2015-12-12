@@ -16,6 +16,7 @@ with [Martin Aryee](http://aryee.mgh.harvard.edu/), [Rafa Irizarry](http://rafal
 
 #### Ebola Growth Curves and Socioeconomic Factors
 with Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)
+
 ---
 
 ### Other/ Miscellaneous Interesting Stuff
