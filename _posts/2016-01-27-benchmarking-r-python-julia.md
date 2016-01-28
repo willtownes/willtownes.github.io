@@ -1,6 +1,7 @@
 ---
 title: Benchmarking R, Python, and Julia
 layout: post
+comments: true
 ---
 
 The folks at [Simply Statistics](http://simplystatistics.org/2016/01/21/parallel-blas-in-r/) recently emphasized the performance benefits of alternative R builds. The bottom line is, you should not use the default binaries provided by [base R from CRAN](http://cran.us.r-project.org/) but instead consider either the [Microsoft R binary](https://mran.revolutionanalytics.com/) or build R from source yourself. This last option is made easier on Mac OS X by using [Homebrew](http://brew.sh/). Do one of these things, and your R programs will run much faster. 
