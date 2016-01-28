@@ -2,6 +2,7 @@
 title: Multivariate Delta Method
 layout: post
 external: [latex]
+comments: true
 ---
 
 ### Case 1- Scalar Valued Function

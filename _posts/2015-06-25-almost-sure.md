@@ -2,6 +2,7 @@
 title: Converging in Probability but not Almost Surely
 layout: post
 external: [latex]
+comments: true
 ---
 
 Like many people, I find the distinctions between different kinds of convergence to be a tricky topic in probability theory. Convergence in probability deals with **sequences of probabilities** while convergence almost surely (abbreviated a.s.) deals with **sequences of sets**. The following example, which was originally provided by Patrick Staples and Ryan Sun, shows that a sequence of random variables can converge in probability but not a.s. Let $X_n$ be a sequence of independent random variables ($n=1,2,....$) such that

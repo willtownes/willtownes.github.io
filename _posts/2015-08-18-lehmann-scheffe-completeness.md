@@ -2,6 +2,7 @@
 title: Why does Lehmann-Scheffe Theorem need Completeness?
 layout: post
 external: [latex]
+comments: true
 ---
 
 The [Lehmann-Scheffe theorem](https://en.wikipedia.org/wiki/Lehmann%E2%80%93Scheff%C3%A9_theorem) says that if we have an unbiased estimator $\newcommand{\E}{\mathrm{E}}

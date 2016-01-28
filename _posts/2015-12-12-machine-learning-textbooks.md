@@ -2,6 +2,7 @@
 title: Machine Learning Textbooks
 layout: post
 external: [latex]
+comments: true
 ---
 
 Recently I have been reading through a couple of machine learning textbooks. I thought I would describe my impressions of their pros and cons. One caveat is I obviously have not read any of these books end-to-end, but I feel I have read enough to get a good sense of things.

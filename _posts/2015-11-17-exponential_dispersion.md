@@ -2,6 +2,7 @@
 title: Exponential Dispersion Family
 layout: post
 external: [latex]
+comments: true
 ---
 
 ### Parametrization

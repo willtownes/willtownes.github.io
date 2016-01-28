@@ -2,6 +2,7 @@
 title: Three Techniques for Dealing with Overdispersion in Generalized Linear Models
 layout: post
 external: [latex]
+comments: true
 ---
 
 ### 1. Use a more flexible distribution

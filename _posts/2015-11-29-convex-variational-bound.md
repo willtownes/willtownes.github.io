@@ -2,6 +2,7 @@
 title: Variational Lower Bounds for Convex Functions
 layout: post
 external: [latex]
+comments: true
 ---
 
 Suppose we have a (scalar) function $f(x)$ that is convex, where $x$ can be a vector. This means every tangent line (or tangent hyperplane in the vector case) to the function lies below the function. Therefore, the family of all tangent lines is a family of lower bounds to the function. This basic idea can be used to replace a difficult function with a simpler one that is a bound by adding in additional parameters. The procedure is as follows:

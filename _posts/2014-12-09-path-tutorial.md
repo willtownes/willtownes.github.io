@@ -1,6 +1,7 @@
 ---
 title: Installing Command Line Utilities on Mac OS X
 layout: post
+comments: true
 ---
 
 This is an overview of different options for installing command line utilities on Mac OS X. The focus of the example is the program [Plink](http://pngu.mgh.harvard.edu/~purcell/plink/download.shtml) which is used for processing genomics data. But the concepts would apply to any command line tool.

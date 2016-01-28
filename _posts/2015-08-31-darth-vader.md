@@ -2,6 +2,7 @@
 title: Darth Vader Theorem
 layout: post
 external: [latex]
+comments: true
 ---
 
 Let $\newcommand{\E}{\mathrm{E}}
