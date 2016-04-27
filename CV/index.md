@@ -9,6 +9,7 @@ layout: default
 
 ### Oral Presentations
 
+* **Bayesian Methods for Dependent Data**. Biostatistics 245, Harvard School of Public Health. April 2016. Collaborator: Leah Comment
 * **Family Based Association Tests for Rare Variants**. [Channing Division of Network Medicine](http://brighamandwomens.org/research/depts/medicine/channing/default.aspx), Brigham and Women's Hospital. September 2015. Collaborator: Christoph Lange
 
 ### Posters
