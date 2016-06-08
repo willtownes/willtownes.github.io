@@ -5,17 +5,17 @@ description: Will Townes is a Ph.D. student in Biostatistics at Harvard Universi
 ---
 
 #### Bio Sketch
-I am a second year PhD student in [Biostatistics](http://www.hsph.harvard.edu/biostatistics) at Harvard University. My advisor is [Dr. Rafael Irizarry](http://rafalab.dfci.harvard.edu/). I am interested in biological problems that involve computational and statistical methods. My academic background is:
+I am a third year PhD student in [Biostatistics](http://www.hsph.harvard.edu/biostatistics) at Harvard University. My advisor is [Dr. Rafael Irizarry](http://rafalab.dfci.harvard.edu/). I am interested in biological problems that involve computational and statistical methods. My academic background is:
 
 * B.S. [Biology](http://www.wlu.edu/biology-department), Washington &amp; Lee University. Studied abroad in [Monteverde](http://www.ciee.org/study-abroad/costa-rica/monteverde/tropical-ecology-conservation/), Costa Rica.
 * Tropical Ecology research in Bataan, Philippines on a Fulbright grant.
 * M.S. [Math and Statistics](http://mathstat.georgetown.edu/), Georgetown University. Completed while working full-time as a software tester.
 
-I am a fan of open source collaboration and like to use software engineering techniques like automated testing, version control and continuous integration in my research whenever possible. 
+I am a fan of open source collaboration and like to use software engineering techniques like automated testing and version control in my research whenever possible. 
 
-My favorite programming language is [Python](https://www.python.org/), but I also use [R](https://www.r-project.org/) and sometimes [Julia](http://julialang.org/).
+My favorite programming language is [Python](https://www.python.org/), but I frequently use [R](https://www.r-project.org/) and sometimes [Julia](http://julialang.org/).
 
-<!--[curriculum vitae ![CV as pdf](icons16/pdf-icon.png)]({{ BASE_PATH }}/assets/broman.pdf)
+<!--[Curriculum Vitae ![CV as pdf](static/pdf-icon.png)]({{ BASE_PATH }}/static/Townes_curriculum_vitae.pdf)
 
 [orcid](http://orcid.org): [0000-0002-4914-6671](http://orcid.org/0000-0002-4914-6671)-->
 
