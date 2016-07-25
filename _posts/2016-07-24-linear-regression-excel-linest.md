@@ -6,7 +6,7 @@ comments: true
 
 My friend was asking me for help with running linear regression in Excel. I had never tried this before, since I normally would use R for this purpose, but I finally figured it out. While I do not recommend using Excel for regression, if you have no choice maybe these instructions may be helpful. Here is a screenshot of what it looks like:
 
-![linear regression excel LINEST]({{site.url}}/static/2016-07-24-linear-regression-excel-linest.png)
+![linear regression excel LINEST](/static/2016-07-24-linear-regression-excel-linest.png)
 
 ### Excel Approach
 
