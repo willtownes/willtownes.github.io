@@ -10,14 +10,12 @@ layout: default
 #### Single Cell RNA-Seq
 with [Martin Aryee](http://aryee.mgh.harvard.edu/), [Rafa Irizarry](http://rafalab.dfci.harvard.edu/), and [Stephanie Hicks](http://www.stephaniehicks.com/)
 
-#### Ebola Growth Curves and Socioeconomic Factors
-with Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)- manuscript submitted to PLOS One, under review.
-
 ---
 
 ### Publications
 
-* **Seed Dispersal of the genus Leea in forest patches of Bataan, Philippines**. [Ecotropica](http://www.soctropecol.eu/ecotropica-2010/) 2010
+* **Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators**. [PLOS One 2016](http://dx.doi.org/10.1371/journal.pone.0163544). Collaborators: Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)
+* **Seed Dispersal of the genus Leea in forest patches of Bataan, Philippines**. [Ecotropica 2010](http://www.soctropecol.eu/ecotropica-2010/)
 
 ### Oral Presentations
 
