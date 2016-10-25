@@ -19,6 +19,7 @@ with [Martin Aryee](http://aryee.mgh.harvard.edu/), [Rafa Irizarry](http://rafal
 
 ### Oral Presentations
 
+* **Informative Missing Data in Single Cell RNA-Seq**. [Dana-Farber Cancer Institute, Department of Biostatistics](http://www.dana-farber.org/Research/Departments-and-Centers/Department-of-Biostatistics-and-Computational-Biology.aspx) genomics seminar. October 2016
 * **Bayesian Methods for Dependent Data**. Biostatistics 245, Harvard School of Public Health. April 2016. Collaborator: Leah Comment
 * **Family Based Association Tests for Rare Variants**. [Channing Division of Network Medicine](http://brighamandwomens.org/research/depts/medicine/channing/default.aspx), Brigham and Women's Hospital. September 2015. Collaborator: Christoph Lange
 
