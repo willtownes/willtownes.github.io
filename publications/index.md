@@ -5,12 +5,9 @@ layout: default
 
 <!--[CV as pdf ![CV as pdf]({{ BASE_PATH }}/static/pdf-icon.png)]({{ BASE_PATH }}/static/Townes_curriculum_vitae.pdf)-->
 
-### Current Projects
+### Preprints
 
-#### Single Cell RNA-Seq
-with [Martin Aryee](http://aryee.mgh.harvard.edu/), [Rafa Irizarry](http://rafalab.dfci.harvard.edu/), and [Stephanie Hicks](http://www.stephaniehicks.com/)
-
----
+* **Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments**. [BioRxiv 2017](http://biorxiv.org/content/early/2017/05/08/025528.abstract). Collaborators: [Stephanie Hicks](http://www.stephaniehicks.com/), Mingxiang Teng, and [Rafael Irizarry](http://rafalab.dfci.harvard.edu/)
 
 ### Publications
 
@@ -31,6 +28,9 @@ with [Martin Aryee](http://aryee.mgh.harvard.edu/), [Rafa Irizarry](http://rafal
 ---
 
 ### Class Projects and Other Unpublished Work
+
+#### Variational Inference for Mixtures of Dirichlet Network Distributions
+Class project for Harvard Computer Science 282R- Bayesian Nonparametrics.
 
 #### Bayesian Nonparametric Time Series Modeling
 with [Jeremiah Zhe Liu](http://jereliu.github.io/)- class project for [MIT 6.882](http://www.tamarabroderick.com/course_6_882.html). We implemented a hierarchical dirichlet process/ hidden markov model switching linear dynamical system in R in a replication of portions of [Emily Fox](http://www.stat.washington.edu/~ebfox/index.html)'s dissertation.
