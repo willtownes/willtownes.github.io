@@ -5,4 +5,4 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 permalink: /blog/:year/:month/:day/:title/
 comments: true
-gems: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate,jekyll-sitemap]

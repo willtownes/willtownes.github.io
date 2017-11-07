@@ -5,7 +5,7 @@ description: Will Townes is a Ph.D. student in Biostatistics at Harvard Universi
 ---
 
 #### Bio Sketch
-I am a third year PhD student in [Biostatistics](http://www.hsph.harvard.edu/biostatistics) at Harvard University. My advisor is [Dr. Rafael Irizarry](http://rafalab.dfci.harvard.edu/). I am interested in biological problems that involve computational and statistical methods. My academic background is:
+I am a fourth year PhD candidate in [Biostatistics](http://www.hsph.harvard.edu/biostatistics) at Harvard University. My advisor is [Dr. Rafael Irizarry](http://rafalab.dfci.harvard.edu/). I am interested in biological problems that involve computational and statistical methods. My academic background is:
 
 * B.S. [Biology](http://www.wlu.edu/biology-department), Washington &amp; Lee University. Studied abroad in [Monteverde](http://www.ciee.org/study-abroad/costa-rica/monteverde/tropical-ecology-conservation/), Costa Rica.
 * Tropical Ecology research in Bataan, Philippines on a Fulbright grant.
