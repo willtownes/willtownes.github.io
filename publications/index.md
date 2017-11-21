@@ -9,12 +9,9 @@ layout: default
 
 * **Varying-Censoring Aware Matrix Factorization for Single Cell RNA-Sequencing**. [BioRxiv 2017](https://www.biorxiv.org/content/early/2017/07/21/166736). Collaborators: [Stephanie Hicks](http://www.stephaniehicks.com/), [Martin Aryee](http://aryee.mgh.harvard.edu/), and [Rafael Irizarry](http://rafalab.dfci.harvard.edu/)
 
-### Submitted
-
-* **Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics**. Genetic Epidemiology 2017. Collaborators: Julian Hecker, Xin Xu, Heide Fier, [Chris Corcoran](http://www.math.usu.edu/people/chriscorcoran_facultypage), [Nan Laird](https://www.hsph.harvard.edu/nan-laird/), and [Christoph Lange](https://www.hsph.harvard.edu/christoph-lange/)
-
 ### Publications
 
+* **Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics**. [Genetic Epidemiology 2017](https://onlinelibrary.wiley.com/doi/10.1002/gepi.22094/full). Collaborators: Julian Hecker, Xin Xu, Heide Fier, [Chris Corcoran](http://www.math.usu.edu/people/chriscorcoran_facultypage), [Nan Laird](https://www.hsph.harvard.edu/nan-laird/), and [Christoph Lange](https://www.hsph.harvard.edu/christoph-lange/)
 * **Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments**. [Biostatistics 2017](https://academic.oup.com/biostatistics/article/doi/10.1093/biostatistics/kxx053/4599254). Collaborators: Stephanie Hicks, Mingxiang Teng, and Rafael Irizarry
 * **Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators**. [PLOS One 2016](http://dx.doi.org/10.1371/journal.pone.0163544). Collaborators: Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)
 * **Seed Dispersal of the genus Leea in forest patches of Bataan, Philippines**. [Ecotropica 2010](http://www.soctropecol.eu/ecotropica-2010/)
@@ -40,9 +37,6 @@ Class project for Harvard Computer Science 282R- Bayesian Nonparametrics.
 
 #### Bayesian Nonparametric Time Series Modeling
 with [Jeremiah Zhe Liu](http://jereliu.github.io/)- class project for [MIT 6.882](http://www.tamarabroderick.com/course_6_882.html). We implemented a hierarchical dirichlet process/ hidden markov model switching linear dynamical system in R in a replication of portions of [Emily Fox](http://www.stat.washington.edu/~ebfox/index.html)'s dissertation.
-
-#### Family Based Association Tests for Rare Variants
-with Christoph Lange- first year Ph.D. summer project.
 
 #### Network Connectivity and Infectious Disease Modeling
 with [JP Onnela](http://www.hsph.harvard.edu/onnela-lab/) and Carla Marquez-Luna
