@@ -11,6 +11,7 @@ layout: default
 
 ### Publications
 
+* **Temperature Tolerance and Species Range in Mountaintop Salamanders and Their Widespread Competitors**. Journal of Herpetology (in review). Collaborators: [David Marsh](https://home.wlu.edu/~marshd/), Kerry Cotter, Kara Farroni, Katherine McCreary, Rachel Petry, and Joseph Tilghman
 * **Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics**. [Genetic Epidemiology 2017](https://onlinelibrary.wiley.com/doi/10.1002/gepi.22094/full). Collaborators: Julian Hecker, Xin Xu, Heide Fier, [Chris Corcoran](http://www.math.usu.edu/people/chriscorcoran_facultypage), [Nan Laird](https://www.hsph.harvard.edu/nan-laird/), and [Christoph Lange](https://www.hsph.harvard.edu/christoph-lange/)
 * **Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments**. [Biostatistics 2017](https://academic.oup.com/biostatistics/article/doi/10.1093/biostatistics/kxx053/4599254). Collaborators: Stephanie Hicks, Mingxiang Teng, and Rafael Irizarry
 * **Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators**. [PLOS One 2016](http://dx.doi.org/10.1371/journal.pone.0163544). Collaborators: Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)
@@ -18,6 +19,8 @@ layout: default
 
 ### Oral Presentations
 
+* **Unsupervised Learning for Single Cell Gene Expression**. Harvard Biostatistics Cancer Working Group. September 2018
+* **Single Cell Housekeeping Genes and Normalization**. Dana-Farber cBio Seminar. April 2018
 * **Varying-Censoring Aware Matrix Factorization for Single Cell RNA-Sequencing**. [Bioconductor](https://www.bioconductor.org/help/course-materials/2017/BioC2017/). July 2017
 * **Informative Missing Data in Single Cell RNA-Seq**. [Dana-Farber Cancer Institute, Department of Biostatistics](http://www.dana-farber.org/Research/Departments-and-Centers/Department-of-Biostatistics-and-Computational-Biology.aspx) genomics seminar. October 2016
 * **Bayesian Methods for Dependent Data**. Biostatistics 245, Harvard School of Public Health. April 2016. Collaborator: Leah Comment
