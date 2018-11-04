@@ -1,156 +1,288 @@
-\documentclass[line, margin]{res}
-\usepackage{footnote}
-\usepackage{url}
-\usepackage{fancyhdr}
+\documentclass[10pt]{article}
+% The template was originally created by Stephanie Hicks.
+% Modifications by Will Townes
+
+\usepackage{tablefootnote}
+\usepackage{calc}
+\usepackage{paralist} % This gives us fun enumeration environments. compactitem will be nice.
+\usepackage{enumitem}
+
+\reversemarginpar % Layout: Puts the section titles on left side of page
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.0in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=.70in,               % 1 inch margins
+            includemp]{geometry}
+
+\setlength{\parindent}{0in} %% More layout: Get rid of indenting throughout entire document
+
+\usepackage{fancyhdr,lastpage}
 \pagestyle{fancy}
-\setlength{\headheight}{12pt}% adjust the value
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+%                    \arabic{page}  of \protect\pageref*{LastPage} % +LP
+                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it. e.g. Usage: \makeheading{name}
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings. e.g. Usage: \section{section name}
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{itemize}[#1]}{\end{itemize}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\partopsep}{0pt}%
+        \setlength{\topsep}{0pt}}}
+        {\end{list}\vspace{-.6\baselineskip}}
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactitem}[#1]}{\end{compactitem}}
+
+% An environment IDENTICAL to innerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{compactitem}[#1]}
+        {\end{compactitem}\vspace{-.6\baselineskip}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+% Uses hyperref to link DOI
+\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doi[1]{doi:\doilink{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
+\makeheading{F. William (Will) Townes \hfill Updated \today}
 
-\name{F. William (Will) Townes}
-\address{\url{ftownes@g.harvard.edu} \hspace{20 pt} \url{http://willtownes.github.io/}}
-\begin{resume}
-\thispagestyle{plain}
-
-\section{SUMMARY}
-I am a Ph.D. student in Biostatistics at Harvard University focusing on Bayesian methods for large scale data. My advisor is Dr. Rafael Irizarry. My interests include machine learning, genomics, and infectious diseases. My goal is to produce statistical methods and open source software implementations to help scientists achieve their research goals more effectively.
-
-\section{EDUCATION}
-\begin{savenotes}
-\begin{tabular}{l l l}
-\textbf{Ph.D. Biostatistics} & Harvard University & 2019\footnote{anticipated}\\
-\textbf{A.M. Biostatistics} & Harvard University & 2016\\
-\textbf{M.S. Mathematics \& Statistics} & Georgetown University & 2013\\
-\textbf{B.S. Biology,} \textit{magna cum laude} & Washington \& Lee University & 2007\\
+\section{Contact Information}
+%
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{2.05in}%
+%
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+\href{https://www.hsph.harvard.edu/biostatistics}{Department of Biostatistics} & website: \href{http://willtownes.github.io}{willtownes.github.io} \\
+Harvard University & email: \href{mailto:ftownes@g.harvard.edu}{ftownes@g.harvard.edu} \\
+Cambridge, MA USA & \\  %twitter: @sandakano \\
 \end{tabular}
 
-%\section{RELEVANT COURSEWORK\footnote{(*) denotes graduate-level, (\dag) denotes Coursera (online)}}
-%\begin{tabular}{l l l}
-%Probability Theory* & Inference* & Stochastic Simulation*\\
-%Bayesian Statistics* & Advanced Regression* & Numerical Methods*\\
-%Infectious Disease Epidemiology* & Environmental Epigenetics* & Gene Mapping*\\
-%Discrete and Linear Optimization\dag & Data Science\dag & Algorithms\dag
-%\end{tabular}
-\end{savenotes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Interests %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{SKILLS}
-\begin{description}
-\item[Python, R, SQL, Stan] - highly proficient
-\item[Linux/shell, \LaTeX, Git, Stata] - proficient
-%\item[Java, Matlab, XML/XSD, JSON, Pig (map/reduce), SAS, Amazon Web Services]  - moderately proficient
-\end{description}
+\section{Summary}
+I am a fifth-year Biostatistics Ph.D. candidate specializing in high-dimensional, unsupervised data analysis. My interests include machine learning, genomics, and infectious disease. My goal is to produce statistical methods and open source software implementations to help scientists achieve their research goals more effectively.
 
-\section{PUBLICATIONS}
-%\begin{enumerate}
-%\item abcdefg
-%\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Education %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{description}
-\item[] Valeri, L., Patterson-Lomba, O., Gurmu, Y., Ablorh, A., Bobb, J., Townes, F.W., Harling, G. 2016. Predicting subnational Ebola virus disease epidemic dynamics from sociodemographic indicators. \textit{PLOS One}
-\end{description}
+\section{Education}
+\vskip -.25in
+\begin{table}[h]
+\begin{tabular}{cl}
+2019\tablefootnote{anticipated} & \textbf{Ph.D. Biostatistics}, Harvard University, Cambridge, MA USA \\
+& \textit{Doctoral Committee: Rafael Irizarry, Ph.D. (Dana-Farber Cancer Institute, Biostatistics)} \\
+& \hspace{1.25in} \textit{Jeff Miller, Ph.D. (Harvard University, Biostatistics)} \\
+& \hspace{1.25in} \textit{Martin Aryee, Ph.D. (Massachusetts General Hospital, Pathology)} \\
+%& \textit{Dissertation: Probabilistic Models for Genetic and Genomic Data with Missing Information} \\
+& \\
+2016 & \textbf{A.M. Biostatistics}, Harvard University, Cambridge, MA USA \\
+2013 & \textbf{M.S. Mathematics \& Statistics}, Georgetown University, Washington, DC USA \\
+2007 & \textbf{B.S. Biology} \textit{magna cum laude}, Washington \& Lee University, Lexington, VA USA
+\end{tabular}
+\end{table}
 
-\begin{description}
-\item[] Townes, W. 2010. Seed dispersal of the genus \textit{Leea} in forest patches of Bataan, Philippines. \textit{Ecotropica}
-\end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Professional Experience %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip -.35in
+\section{Professional Experience}
+\vskip -.1in
+\begin{table}[h]
+\begin{tabular}{ll}
+2011 - 2014 & \textbf{Software Test Engineer}, SRA International, Arlington, VA   \\
+& Developed automated testing of web services and ETL processes for the \\
+& Energy Star Qualified Product Exchange. Trained other testers on the use of \\
+& APIs and version control. \\
+& \\
+2008 - 2010 & \textbf{Software Analyst}, Perrin Quarles Associates, Charlottesville, VA   \\
+& Supported development of the Environmental Protection Agency’s \\
+& National Emissions Inventory System. \\
+& \\
+2007 - 2008 & \textbf{Fulbright Scholar}, University of the Philippines \\
+& Conducted independent forest ecology research while living with an \\
+& indigenous \textit{Aeta} community in Bataan Province. \\
+\end{tabular}
+\end{table}
 
-%\section{SUBMITTED}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Publications %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip -.2in
+\section{Research}
+\textbf{Preprints}
+\begin{enumerate}[label= {[\arabic*]}]
+\item {\bf Townes FW}, Hicks SC, Ayree MJ, Irizarry RA. Varying-Censoring Aware Matrix Factorization for Single Cell RNA-Sequencing. {\it bioRxiv} (2017). doi: \url{https://doi.org/10.1101/166736}.
+\end{enumerate}
 
-\section{IN PROGRESS}
-\begin{description}
-%\item[] Family Based Association Tests for Rare Variants
-%\item[] Simulating the Spread of Influenza in the US with Network Models
-\item[] Townes, F.W., Hicks, S., Aryee, M., Irizarry, R. Factor Analysis with Dropout
-%\item[] Ripple, J., and Townes, W. (2012). Effect of Prenatal Melatonin Exposure on Adult Psychopathology.
-%\item[] Townes, W., and Knox, J. (2007). Effect of Garlic Mustard (\textit{Alliaria petiolata}) on Native Tree Species
-\end{description}
+\textbf{In Review}
+\begin{enumerate}[label= {[\arabic*]}]
+\item Marsh DM, {\bf Townes FW}, Cotter K, Farroni K, McCreary K, Petry R, Tilghman J. Temperature Tolerance and Species Range in Mountaintop Salamanders and Their Widespread Competitors. {\it Journal of Herpetology} (2018).
+\end{enumerate}
 
-\section{EXPERIENCE}
-\textbf{Teaching Assistant} \textit{Harvard School of Public Health, Boston, MA \hfill 2016-present} \\
-Various introductory/intermediate biostatistics courses.
+\textbf{Peer-reviewed Journal Articles}
+\begin{enumerate}[label= {[\arabic*]}]
+\item Hicks SC, {\bf Townes FW}, Teng M, Irizarry RA. Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments. {\it Biostatistics} (2017). doi: \url{http://dx.doi.org/10.1101/025528}.
+\item Hecker, J, Xu X, {\bf Townes FW}, Fier HL, Corcoran C, Laird N, Lange C. Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics. {\it Genetic Epidemiology} (2017). doi: \url{https://doi.org/10.1002/gepi.22094}.
+\item Valeri L, Patterson-Lomba O, Gurmu Y, Ablorh A, Bobb J, {\bf Townes FW}, Harling G. Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators. PLoS ONE (2016). doi: \url{https://doi.org/10.1371/journal.pone.0163544}.
+\item {\bf Townes, W}. Seed dispersal of the genus Leea in forest patches of Bataan, Philippines. {\it Ecotropica } (2010).
+\end{enumerate}
 
-\textbf{Test Engineer} \textit{SRA International, Arlington, VA \hfill 2011-2014} \\
-Automated testing of web services for the Energy Star Qualified Products Exchange.
-%Designed and executed automated tests of web services (SOAP), primarily supporting the Energy Star Qualified Products Exchange. Assisted developers with testing extract-transform-load procedures to update data warehouses from transactional databases. Trained other team members in version control and XML techniques. Demonstrated anomaly detection and data quality prototypes using machine learning algorithms. Provided reports and basic statistical analyses to clients.
+\textbf{Dissertation Topics In Preparation}
+\begin{enumerate}[label= {[\arabic*]}]
+\item \textbf{Townes FW}, Hicks SC, Aryee MJ, Irizarry RA. Feature Selection, Normalization, and Dimension Reduction of High Dimensional, Sparse Count Matrices with Application to Single Cell Gene Expression.
+\item \textbf{Townes FW}, Miller J. Identifying Pro-Longevity Genes by Integrating Gene Expression and Curated Annotations.
+\item \textbf{Townes FW}. The Compound Poisson Extreme Stable Family and a Generalization of the Hermite Distribution.
+\end{enumerate}
 
-\textbf{Software Analyst} \textit{Perrin Quarles Associates, Charlottesville, VA \hfill 2008-2010} \\
-Supported development of the US Environmental Protection Agency's National Emissions Inventory System.
+%\vskip .2in
+\textbf{Contributed Talks}
+\begin{enumerate}[label= {[\arabic*]}]
+\item Townes FW. Unsupervised Learning for Single Cell Gene Expression. {\it Harvard Biostatistics Cancer Working Group}. September 2018.
+\item Townes FW. Single Cell Housekeeping Genes and Normalization. {\it Dana-Farber Cancer Institute cBio Seminar}. April 2018.
+\item Townes FW. Varying-Censoring Aware Matrix Factorization for Single Cell RNA-Sequencing. \href{https://www.bioconductor.org/help/course-materials/2017/BioC2017/}{{\it Bioconductor Annual Meeting}}. July 2017.
+\item Townes FW. Informative Missing Data in Single Cell RNA-Seq. {\it Dana-Farber Cancer Institute Genomics Seminar}. October 2016.
+\item Townes FW, Lange C. Family Based Association Tests for Rare Variants. {\it Brigham \& Women's Hospital Channing Network Medicine Seminar}. September 2015.
+\end{enumerate}
+%\vskip .2in
 
-\textbf{Fulbright Scholar} \textit{Philippines \hfill 2007-2008} \\
-Conducted independent forest ecology research while living in an indigenous \textit{Aeta} community in Bataan Province.  Presented results to faculty and students at University of Philippines-Diliman.  Traveled to Hong Kong, Singapore, Malaysia, and Thailand.
+\textbf{Posters}
+\begin{enumerate}[label= {[\arabic*]}]
+\item Townes FW, Shukla C. Gene Expression Autoencoders. Harvard Biomedical Informatics 707 (Deep Learning in Healthcare). April 2018.
+\item Townes FW, Marquez-Luna C. Mixture of Experts Analysis of Infectious Disease Outbreak Characteristics. Harvard Computer Science 281 (Advanced Machine Learning). December 2015.
+\item Townes FW, Karaayvaz M, Gillespie S, Bernstein B, Ellisen L, Aryee M. Single Cell RNA-Seq Technical and Biological Confounders. Program in Quantitative Genomics Conference, Harvard Medical School. November 2015.
+\end{enumerate}
+%\vskip .2in
 
-%\textbf{Student Environmental Action League} \textit{Washington \& Lee \hfill 2006-2007} \\
-%As president, worked with administrators, physical plant engineers, faculty, and other students to reduce the school's carbon footprint and improve energy and water efficiency.
+\textbf{Class Projects and Other Unpublished Work}
+\begin{enumerate}[label= {[\arabic*]}]
+\item Townes FW, Comment L. Bayesian Methods for Dependent Data. Harvard Biostatistics 245 (Multivariate and Longitudinal Analysis). April 2016.
+\item Townes FW. Variational Inference for Mixtures of Dirichlet Network Distributions. Harvard Computer Science 282R (Bayesian Nonparametrics Seminar).
+\item Townes FW, Liu JZ. Bayesian Nonparametric Time Series Modeling. MIT 6.882 (Bayesian Modeling and Inference).
+\item Townes FW, Marquez-Luna C, Onnela JP. Network Connectivity and Infectious Disease Modeling.
+\end{enumerate}
 
-\fancyhead[R]{\textbf{Will Townes}}% Place "My Name" in right of header
-\fancyfoot[C]{\thepage} % place page number in footer
+\pagebreak
 
-% \section{HONORS}
-% \begin{description}
-% %\item[SRA Individual Excellence Award] nominated (September 2012)
-% %\item[Johns Hopkins SAIS] admitted (2010)
-% \item[Biology Departmental Research Award] Washington \& Lee (2007)
-% \item[Omicron Delta Kappa Leadership Honor Society] (2007)
-% \item[Paul A. Brower, MD Scholarship] \hfill \\for Academic Excellence and University Service, Washington \& Lee (2006)
-% \item[Christian A. Johnson Scholarship] for Scientific Research, Washington \& Lee (2006)
-% %\item[George Washington Honor Scholarship] full tuition, Washington \& Lee (2003-07)
-% %\item[Eagle Scout Rank] Boy Scouts of America (2000)
-% \end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Awards %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip -.15in
+\section{Funding}
+\vskip -0.25in
+\begin{table}[h]
+\begin{tabular}{rl}
+2018 - 2019 & NIH T32 Training Grant: Cancer\\
+2017 & Chan-Zuckerberg Foundation Travel Grant\\
+    & Human Cell Atlas Jamboree. European Bioinformatics Institute, Hinxton, UK\\
+2016 - 2018 & NIH T32 Training Grant: Big Data to Knowledge\\
+2016 & NSF-CBMS Travel Award: Topology, Geometry, and Statistics\\
+2014 - 2016 & NIH T32 Training Grant: Clinical Epidemiology of Lung Diseases
+\end{tabular}
+\end{table}
 
-% \section{PROFESSIONAL SOCIETIES}
-% \begin{description}
-% \item[American Statistical Association]
-% \item[International Biometric Society] Eastern North America Region
-% \item[Fulbright Scholars Association]
-% \end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% Teaching Experience %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{FUNDING}
-\textbf{NIH T32 Training Grant} \textit{Big Data to Knowledge \hfill 2016-present} \\
-Coordinator: Dr. John Quackenbush, Dana-Farber Cancer Institute.
+%\newpage
+\vskip -.2in
+\section{Teaching Experience}
+\vskip -.20in
+\begin{table}[h]
+\begin{tabular}{ll}
+2018 Fall & \textbf{Teaching Assistant}, Applied Regression (Harvard - BST 210)   \\
+& Grade homeworks, hold office hours, and teach a weekly lab section.  \\
+2018 Summer & \textbf{Co-Instructor}, StatStart (Harvard) \\
+& Statistics program for under-represented high school students. \\
+& Gave two interactive lectures on graphing data and regression. \\
+2017 Fall & \textbf{Teaching Assistant}, Applied Bayesian Analysis (Harvard - BST 228)   \\
+& Grade homeworks, provide solutions, and hold office hours. \\
+2017 Summer & \textbf{Lead Instructor}, Introduction to Data Science (PARSE Ltd.) \\
+& Nonprofit, week-long statistics program for high school students. \\
+& Developed course material and gave interactive lectures using R. \\
+2017 Spring & \textbf{Teaching Assistant}, Applied Longitudinal Analysis (Harvard - BST 226)   \\
+& Grade homeworks and hold office hours. \\
+2016 Fall & \textbf{Teaching Assistant}, Intro to Statistical Methods (Harvard - BST 201)   \\
+& Grade homeworks, provide solutions, hold office hours, and teach a weekly lab section. \\
+2016 Summer & \textbf{Project Mentor}, Pipelines into Biostatistics (Harvard) \\
+& Biostatistics program for undergraduates. \\
+& Guided three students on a pharmacogenomics data analysis. \\
+2016 Spring & \textbf{Teaching Assistant}, Rates and Proportions (Harvard - BST 210)   \\
+& Grade homeworks, provide solutions, hold office hours, and teach a weekly lab section.
+\end{tabular}
+\end{table}
+%\vskip .2in
 
-\textbf{NSF-CBMS Travel Award} \textit{Topology, Geometry, and Statistics \hfill 2016} \\
-\url{https://stat.utexas.edu/training/cbms-2016}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Technical Skills %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+\textbf{Programming}: R, Python, SQL, Git, \LaTeX, Stata, Julia, Matlab, Shell \\
+\textbf{Operating Systems}: Mac OS X, Linux, Windows \\
+\textbf{Machine Learning Frameworks}: Caret, Sklearn, Keras, Tensorflow, Stan, JAGS
 
-\textbf{NIH T32 Training Grant} \textit{Clinical Epidemiology of Lung Diseases \hfill 2014-2016} \\
-Coordinator: Dr. Scott Weiss, Channing Network Medicine, Brigham and Women's Hospital.
-
-\section{LANGUAGES}
-Spanish (intermediate), Brazilian Portuguese (basic), Tagalog/Filipino (rusty)
-
-%\begin{description}
-%\item[Spanish] intermediate
-%\item[Brazilian Portuguese] basic
-%\item[Tagalog/Filipino] rusty
-%\end{description}
-
-% \section{HOBBIES}
-% \begin{description}
-% \item[Programming] \hfill \\I enjoy solving math and programming puzzles on \url{projecteuler.net} and \url{rosalind.info}. I store the code at: \url{github.com/willtownes}.
-% \item[Botany] \hfill \\I am curating a collection of 16,000 images in an effort to raise awareness about the plants of the Philippines and Southeast Asia. I have posted them via API to \url{flickr.com/photos/filibot} and am developing a web search tool for the metadata.
-% \item[Hiking] \hfill \\I love exploring nature and in 2005 completed a through-hike of the Appalachian Trail (Georgia to Maine). I also am an avid `high-pointer', attempting to visit the highest point in each county or state.
-% \item[International Cultures] \hfill \\ I find immersion in other cultures to be intellectually stimulating. I have been fortunate to spend several months in South America, Southeast Asia, and Western Anatolia as a backpacker and still stay in touch with many of the folks I met along the way.
-% \end{description}
-
-%\pagebreak
-
-%\section{REFERENCES}
-%\begin{description}
-%\item[Dr. Mahlet Tadesse] \textit{Georgetown University} \hfill mgt26@georgetown.edu \\
-%For statistics, biostatistics, and Bayesian methods. \hfill (202) 687-1871
-
-%\item[Dr. Ali Arab] \textit{Georgetown University} \hfill aa577@georgetown.edu \\
-%For statistics and unpublished research. \hfill (202) 687-6214
-
-%\item[Dr. Sivan Leviyang] \textit{Georgetown University} \hfill sr286@georgetown.edu \\
-%For stochastic simulation. \hfill (202) 687-9064
-
-%\item[Dr. John Knox] \textit{Washington \& Lee University} \hfill knoxj@wlu.edu \\
-%For biology, published research, and unpublished research. \hfill (540) 458-8891
-
-%\item[John Woodell] \textit{Open Source Connections} \hfill johnw@ideastochangetheworld.org \\
-%For work at Perrin Quarles Associates. \hfill (434) 996-1991
-
-%\item[Jon Luzader] \textit{SRA International} \hfill jon\_luzader@sra.com \\
-%For work at SRA International. \hfill (571) 830-5051
-
-%\end{description}
-\end{resume}
 \end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% End CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%

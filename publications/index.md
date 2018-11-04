@@ -15,7 +15,7 @@ layout: default
 * **Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics**. [Genetic Epidemiology 2017](https://onlinelibrary.wiley.com/doi/10.1002/gepi.22094/full). Collaborators: Julian Hecker, Xin Xu, Heide Fier, [Chris Corcoran](http://www.math.usu.edu/people/chriscorcoran_facultypage), [Nan Laird](https://www.hsph.harvard.edu/nan-laird/), and [Christoph Lange](https://www.hsph.harvard.edu/christoph-lange/)
 * **Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments**. [Biostatistics 2017](https://academic.oup.com/biostatistics/article/doi/10.1093/biostatistics/kxx053/4599254). Collaborators: Stephanie Hicks, Mingxiang Teng, and Rafael Irizarry
 * **Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators**. [PLOS One 2016](http://dx.doi.org/10.1371/journal.pone.0163544). Collaborators: Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)
-* **Seed Dispersal of the genus Leea in forest patches of Bataan, Philippines**. [Ecotropica 2010](http://www.soctropecol.eu/ecotropica-2010/)
+* **Seed Dispersal of the genus Leea in forest patches of Bataan, Philippines**. Ecotropica 2010.
 
 ### Oral Presentations
 
@@ -28,6 +28,7 @@ layout: default
 
 ### Posters
 
+* **Gene Expression Autoencoders**. Biomedical Informatics 707, Harvard Medical School. April 2018. Collaborator: Chinmay Shukla
 * **Mixture of Experts Analysis of Infectious Disease Outbreak Characteristics**. Computer Science 281, Harvard School of Engineering and Applied Sciences. December 2015. Collaborator: Carla Marquez-Luna
 * **Single Cell RNA-Seq Technical and Biological Confounders**. [Program in Quantitative Genomics Conference](http://www.hsph.harvard.edu/2015-pqg-conference/), Harvard Medical School. November 2015. Collaborators: Mihriban Karaayvaz, Shawn Gillespie, Bradley Bernstein, Leif Ellisen, and Martin Aryee
 
