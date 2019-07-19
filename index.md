@@ -1,19 +1,18 @@
 ---
 title: Will Townes
 layout: default
-description: Will Townes is a Ph.D. student in Biostatistics at Harvard University
+description: Will Townes is a postdoctoral researcher in Computer Science at Princeton University
 ---
 
 #### Bio Sketch
-I am a fifth year PhD candidate in [Biostatistics](http://www.hsph.harvard.edu/biostatistics) at Harvard University. My advisor is [Dr. Rafael Irizarry](http://rafalab.dfci.harvard.edu/). I am interested in biological problems that involve computational and statistical methods. My academic background is:
+I am a postdoctoral researcher focused on biomedical data science. I work with [Barbara Engelhardt](http://beehive.cs.princeton.edu/) in the Princeton Computer Science Department. My academic background is:
 
-* B.S. [Biology](http://www.wlu.edu/biology-department), Washington &amp; Lee University. Studied abroad in [Monteverde](http://www.ciee.org/study-abroad/costa-rica/monteverde/tropical-ecology-conservation/), Costa Rica.
-* Tropical Ecology research in Bataan, Philippines on a Fulbright grant.
+* Ph.D. [Biostatistics](https://www.hsph.harvard.edu/biostatistics/), Harvard University. Advised by [Rafael Irizarry](http://rafalab.dfci.harvard.edu/).
 * M.S. [Math and Statistics](http://mathstat.georgetown.edu/), Georgetown University. Completed while working full-time as a software tester.
+* Tropical Ecology research in Bataan, Philippines on a Fulbright grant.
+* B.S. [Biology](http://www.wlu.edu/biology-department), Washington &amp; Lee University. Studied abroad in [Monteverde](http://www.ciee.org/study-abroad/costa-rica/monteverde/tropical-ecology-conservation/), Costa Rica.
 
-I am a fan of open source collaboration and like to use software engineering techniques like automated testing and version control in my research whenever possible. 
-
-My favorite programming language is [Python](https://www.python.org/), but I frequently use [R](https://www.r-project.org/) and sometimes [Julia](http://julialang.org/).
+My favorite programming languages are [python](https://www.python.org/) and [R](https://www.r-project.org/).
 
 <!--[Curriculum Vitae ![CV as pdf](static/pdf-icon.png)]({{ BASE_PATH }}/static/Townes_curriculum_vitae.pdf)
 
