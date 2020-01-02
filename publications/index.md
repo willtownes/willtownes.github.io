@@ -15,7 +15,7 @@ Bold: first or senior author. Italics: coauthor.
 
 ### Publications
 
-* **Feature Selection and Dimension Reduction for Single Cell RNA-Seq based on a Multinomial Model**. [Genome Biology 2019](https://www.biorxiv.org/content/10.1101/574574v1). Collaborators: [Stephanie Hicks](http://www.stephaniehicks.com/), [Martin Aryee](http://aryee.mgh.harvard.edu/), and Rafael Irizarry
+* **Feature Selection and Dimension Reduction for Single Cell RNA-Seq based on a Multinomial Model**. [Genome Biology 2019](https://doi.org/10.1186/s13059-019-1861-6). Collaborators: [Stephanie Hicks](http://www.stephaniehicks.com/), [Martin Aryee](http://aryee.mgh.harvard.edu/), and Rafael Irizarry
 * *Temperature Tolerance and Species Range in Mountaintop Salamanders and Their Widespread Competitors*. [Journal of Herpetology](https://www.journalofherpetology.org/doi/abs/10.1670/18-110). Collaborators: [David Marsh](https://home.wlu.edu/~marshd/), Kerry Cotter, Kara Farroni, Katherine McCreary, Rachel Petry, and Joseph Tilghman
 * *Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics*. [Genetic Epidemiology 2017](https://onlinelibrary.wiley.com/doi/10.1002/gepi.22094/full). Collaborators: Julian Hecker, Xin Xu, Heide Fier, [Chris Corcoran](http://www.math.usu.edu/people/chriscorcoran_facultypage), [Nan Laird](https://www.hsph.harvard.edu/nan-laird/), and [Christoph Lange](https://www.hsph.harvard.edu/christoph-lange/)
 * *Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments*. [Biostatistics 2018](https://academic.oup.com/biostatistics/article/doi/10.1093/biostatistics/kxx053/4599254). Collaborators: Stephanie Hicks, Mingxiang Teng, and Rafael Irizarry
