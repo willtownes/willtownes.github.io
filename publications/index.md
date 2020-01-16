@@ -11,7 +11,6 @@ Bold: first or senior author. Italics: coauthor.
 
 * **Quantile normalization of single-cell RNA-seq read counts without unique molecular identifiers**. [BioRxiv 2019](https://www.biorxiv.org/content/10.1101/817031v1). Collaborator: [Rafael Irizarry](http://rafalab.dfci.harvard.edu/) 
 * *An exact, unifying framework for region-based association testing in family-based designs, including higher criticism approaches, SKATs, multivariate and burden tests*. [BioRxiv 2019](https://www.biorxiv.org/content/10.1101/815290v1). Collaborators: Julian Hecker, Priyadarshini Kachroo, Jessica Lasky-Su, John Ziniti, Michael H. Cho, Scott T. Weiss, Nan M. Laird, and Christoph Lange
-* **Generalized Principal Component Analysis**. [Arxiv 2019](https://arxiv.org/abs/1907.02647).
 
 ### Publications
 
@@ -21,6 +20,13 @@ Bold: first or senior author. Italics: coauthor.
 * *Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments*. [Biostatistics 2018](https://academic.oup.com/biostatistics/article/doi/10.1093/biostatistics/kxx053/4599254). Collaborators: Stephanie Hicks, Mingxiang Teng, and Rafael Irizarry
 * *Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators*. [PLOS One 2016](http://dx.doi.org/10.1371/journal.pone.0163544). Collaborators: Linda Valeri, Oscar Patterson-Lomba, Yared Gurmu, Akweley Ablorh, Jennifer Bobb, and [Guy Harling](http://guyharling.com/)
 * **Seed Dispersal of the genus Leea in forest patches of Bataan, Philippines**. Ecotropica 2010.
+
+### Technical Reports
+
+* **Review of Probability Distributions for Modeling Count Data**. [Arxiv 2020](https://arxiv.org/abs/2001.04343).
+* **Generalized Principal Component Analysis**. [Arxiv 2019](https://arxiv.org/abs/1907.02647).
+
+---
 
 ### Selected Talks
 
