@@ -88,8 +88,9 @@
 \newcommand{\blankline}{\quad\pagebreak[2]}
 
 % Uses hyperref to link DOI
-\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+\newcommand\doilink[1]{\href{https://dx.doi.org/#1}{#1}}
 \newcommand\doi[1]{doi:\doilink{#1}}
+\newcommand\arxiv[1]{\url{https://arxiv.org/abs/#1}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,7 +99,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\makeheading{F. William (Will) Townes \hfill Updated \today}
+\makeheading{F. William (Will) Townes \hfill \small{Updated \today}}
 
 \section{Contact Information}
 %
@@ -139,7 +140,7 @@ I am a postdoctoral researcher focused on biomedical data science. I work with B
 & \\
 2016 & \textbf{A.M. Biostatistics}, Harvard University, Cambridge, MA USA \\
 2013 & \textbf{M.S. Mathematics \& Statistics}, Georgetown University, Washington, DC USA \\
-2007 & \textbf{B.S. Biology} \textit{magna cum laude}, Washington \& Lee University, Lexington, VA USA
+2007 & \textbf{B.S. Biology}, Washington \& Lee University, Lexington, VA USA
 \end{tabular}
 \end{table}
 
@@ -175,35 +176,35 @@ I am a postdoctoral researcher focused on biomedical data science. I work with B
 \section{Research}
 \textbf{Preprints}
 \begin{enumerate}[label= {[\arabic*]}]
-\item {\bf Townes FW}, Miller JW. Identifying longevity associated genes by integrating gene expression and curated annotations. {\it bioRxiv} (2020). \url{https://doi.org/10.1101/2020.01.31.929232}.
-\item {\bf Townes FW}, Irizarry RA. Quantile normalization of single-cell RNA-seq read counts without unique molecular identifiers. {\it bioRxiv} (2019). \url{https://doi.org/10.1101/817031}.
-\item Hecker J, {\bf Townes FW}, Kachroo P, Lasky-Su J, Ziniti J, Cho MH, Weiss ST, Laird NM, Lange C. An exact, unifying framework for region-based association testing in family-based designs, including higher criticism approaches, SKATs, multivariate and burden tests. {\it bioRxiv} (2019). \url{https://doi.org/10.1101/815290}.
+\item {\bf Townes FW}, Miller JW. Identifying longevity associated genes by integrating gene expression and curated annotations. {\it bioRxiv} (2020). \doi{10.1101/2020.01.31.929232}.
+\item Hecker J, {\bf Townes FW}, Kachroo P, Lasky-Su J, Ziniti J, Cho MH, Weiss ST, Laird NM, Lange C. An exact, unifying framework for region-based association testing in family-based designs, including higher criticism approaches, SKATs, multivariate and burden tests. {\it bioRxiv} (2019). \doi{10.1101/815290}.
 \end{enumerate}
-
-%\textbf{In Press}
-%\begin{enumerate}[label= {[\arabic*]}]
-%\end{enumerate}
 
 % \textbf{In Review}
 % \begin{enumerate}[label= {[\arabic*]}]
 
 % \end{enumerate}
 
+\textbf{In Press}
+\begin{enumerate}[label= {[\arabic*]}]
+\item {\bf Townes FW}, Irizarry RA. Quantile normalization of single-cell RNA-seq read counts without unique molecular identifiers. {\it Genome Biology} (2020). bioRxiv preprint \doi{10.1101/817031}.
+\end{enumerate}
+
 \textbf{Peer-reviewed Journal Articles}
 \begin{enumerate}[label= {[\arabic*]}]
-\item {\bf Townes FW}, Hicks SC, Aryee MJ, Irizarry RA. Feature selection and dimension reduction for single-cell RNA-Seq based on a multinomial model. {\it Genome Biology} (2019). \url{https://doi.org/10.1186/s13059-019-1861-6}.
-\item Marsh DM, {\bf Townes FW}, Cotter K, Farroni K, McCreary K, Petry R, Tilghman J. Thermal Preference and Species Range in Mountaintop Salamanders and Their Widespread Competitors. {\it Journal of Herpetology} (2019). \url{https://doi.org/10.1670/18-110}.
-\item Hicks SC, {\bf Townes FW}, Teng M, Irizarry RA. Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments. {\it Biostatistics} (2018). \url{http://dx.doi.org/10.1101/025528}.
-\item Hecker, J, Xu X, {\bf Townes FW}, Fier HL, Corcoran C, Laird N, Lange C. Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics. {\it Genetic Epidemiology} (2017). \url{https://doi.org/10.1002/gepi.22094}.
-\item Valeri L, Patterson-Lomba O, Gurmu Y, Ablorh A, Bobb J, {\bf Townes FW}, Harling G. Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators. {\it PLOS One} (2016). \url{https://doi.org/10.1371/journal.pone.0163544}.
+\item {\bf Townes FW}, Hicks SC, Aryee MJ, Irizarry RA. Feature selection and dimension reduction for single-cell RNA-Seq based on a multinomial model. {\it Genome Biology} (2019). \doi{10.1186/s13059-019-1861-6}.
+\item Marsh DM, {\bf Townes FW}, Cotter K, Farroni K, McCreary K, Petry R, Tilghman J. Thermal Preference and Species Range in Mountaintop Salamanders and Their Widespread Competitors. {\it Journal of Herpetology} (2019). \doi{10.1670/18-110}.
+\item Hicks SC, {\bf Townes FW}, Teng M, Irizarry RA. Missing Data and Technical Variability in Single-Cell RNA-Sequencing Experiments. {\it Biostatistics} (2018). \doi{10.1101/025528}.
+\item Hecker, J, Xu X, {\bf Townes FW}, Fier HL, Corcoran C, Laird N, Lange C. Family-Based Tests for Associating Haplotypes With General Phenotype Data: Application to Asthma Genetics. {\it Genetic Epidemiology} (2017). \doi{10.1002/gepi.22094}.
+\item Valeri L, Patterson-Lomba O, Gurmu Y, Ablorh A, Bobb J, {\bf Townes FW}, Harling G. Predicting Subnational Ebola Virus Disease Epidemic Dynamics from Sociodemographic Indicators. {\it PLOS One} (2016). \doi{10.1371/journal.pone.0163544}.
 \item {\bf Townes W}. Seed dispersal of the genus Leea in forest patches of Bataan, Philippines. {\it Ecotropica } (2010).
 \end{enumerate}
 %\vskip .2in
 
 \textbf{Technical Reports}
 \begin{enumerate}[label= {[\arabic*]}]
-\item {\bf Townes FW}. Review of Probability Distributions for Modeling Count Data. {\it arXiv} (2020). \url{https://arxiv.org/abs/2001.04343}.
-\item {\bf Townes FW}. Generalized Principal Component Analysis. {\it arXiv} (2019). \url{https://arxiv.org/abs/1907.02647}.
+\item {\bf Townes FW}. Review of Probability Distributions for Modeling Count Data. {\it arXiv} (2020). \arxiv{2001.04343}.
+\item {\bf Townes FW}. Generalized Principal Component Analysis. {\it arXiv} (2019). \arxiv{1907.02647}.
 \end{enumerate}
 
 % \textbf{Class Projects and Other Unpublished Work}
@@ -212,7 +213,7 @@ I am a postdoctoral researcher focused on biomedical data science. I work with B
 % \item Townes FW. Variational Inference for Mixtures of Dirichlet Network Distributions. Harvard Computer Science 282R (Bayesian Nonparametrics Seminar).
 % \item Townes FW, Liu JZ. Bayesian Nonparametric Time Series Modeling. MIT 6.882 (Bayesian Modeling and Inference).
 % \item Townes FW, Marquez-Luna C, Onnela JP. Network Connectivity and Infectious Disease Modeling.
-% \item Townes FW, Hicks SC, Aryee MJ, Irizarry RA. Varying-Censoring Aware Matrix Factorization for Single Cell RNA-Sequencing. {\it bioRxiv} (2017). \url{https://doi.org/10.1101/166736}.
+% \item Townes FW, Hicks SC, Aryee MJ, Irizarry RA. Varying-Censoring Aware Matrix Factorization for Single Cell RNA-Sequencing. {\it bioRxiv} (2017). \doi{10.1101/166736}.
 % \end{enumerate}
 %\vskip .2in
 
@@ -251,9 +252,7 @@ I am a postdoctoral researcher focused on biomedical data science. I work with B
 \pagebreak
 
 \section{Peer Review}
-\textbf{Journals}: {\it Biostatistics, Nature Communications}
-
-
+\textbf{Journals}: {\it Biostatistics, Nature Communications, Genome Biology}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%% Awards %%%%%%%%%%%%%%%%%%
@@ -297,7 +296,7 @@ I am a postdoctoral researcher focused on biomedical data science. I work with B
 2016 Fall & \textbf{Teaching Assistant}, Intro to Statistical Methods (Harvard - BST 201)   \\
 & Grade homeworks, provide solutions, hold office hours, and teach a weekly lab section. \\
 2016 Summer & \textbf{Project Mentor}, Pipelines into Biostatistics (Harvard) \\
-& Biostatistics program for undergraduates. \\
+& Program for under-represented undergraduates. \\
 & Guided three students on a pharmacogenomics data analysis. \\
 2016 Spring & \textbf{Teaching Assistant}, Rates and Proportions (Harvard - BST 210)   \\
 & Grade homeworks, provide solutions, hold office hours, and teach a weekly lab section.
@@ -312,6 +311,8 @@ I am a postdoctoral researcher focused on biomedical data science. I work with B
 \section{Software Packages}
 \begin{enumerate}[label= {[\arabic*]}]
 \item \textbf{glmpca}: dimension reduction for non-normally distributed data. R package: \url{https://cran.r-project.org/package=glmpca}, python package: \url{https://pypi.org/project/glmpca/}
+\item \textbf{scry}: Small-Count Analysis Methods for High-Dimensional Data. Bioconductor R package: \url{https://bioconductor.org/packages/release/bioc/html/scry.html}
+\item \textbf{quminorm}: Quantile normalization of non-UMI single cell read counts. R package: \url{https://github.com/willtownes/quminorm}
 \end{enumerate}
 
 \section{Technical Skills}
