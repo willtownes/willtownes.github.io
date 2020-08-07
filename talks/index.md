@@ -5,6 +5,7 @@ layout: default
 
 ### Selected Talks
 
+* [**Dimension reduction for massive single-cell datasets**](https://doi.org/10.7490/f1000research.1118084.1). [Bioconductor](https://bioc2020.bioconductor.org/index). July 2020
 * [**Don't Normalize: the GLM-PCA Approach to Normalization**](https://speakerdeck.com/willtownes/dont-normalize-the-glm-pca-approach-to-normalization). [Normjam](https://normjam.github.io/), New York Genome Center. November 2019
 * **Biostatistics and Data Science as a Career Path**. Biology Department, Washington & Lee University. October 2019
 * [**Dimension Reduction for Single Cell RNA-Seq based on a Multinomial Model**](https://speakerdeck.com/willtownes/dimension-reduction-for-single-cell-rna-seq-based-on-a-multinomial-model). Joint Statistical Meetings (Denver, CO). August 2019
