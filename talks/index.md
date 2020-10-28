@@ -5,6 +5,7 @@ layout: default
 
 ### Selected Talks
 
+* [**Primer: Generalized linear models and latent factor models**](https://www.broadinstitute.org/talks/primer-generalized-linear-models-and-latent-factor-models). Broad Institute Models, Inference, and Algorithms. October 2020
 * [**Dimension reduction for massive single-cell datasets**](https://doi.org/10.7490/f1000research.1118084.1). [Bioconductor](https://bioc2020.bioconductor.org/index). July 2020
 * [**Don't Normalize: the GLM-PCA Approach to Normalization**](https://speakerdeck.com/willtownes/dont-normalize-the-glm-pca-approach-to-normalization). [Normjam](https://normjam.github.io/), New York Genome Center. November 2019
 * **Biostatistics and Data Science as a Career Path**. Biology Department, Washington & Lee University. October 2019
