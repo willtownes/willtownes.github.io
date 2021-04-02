@@ -9,3 +9,4 @@ _site/
 *.log
 *.synctex.gz
 *.out
+*.xdv
