@@ -27,7 +27,7 @@ My favorite programming languages are [python](https://www.python.org/) and [R](
             </b><code>il.c</code><b>So</b><code>om</code><br/>
             </div>
     <div id="twitter">
-    <a href="https://twitter.com/sandakano">@sandakano</a>
+    <a href="https://twitter.com/will_townes">@will_townes</a>
     </div>
 
             
