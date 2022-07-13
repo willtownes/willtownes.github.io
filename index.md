@@ -1,18 +1,11 @@
 ---
 title: Will Townes
 layout: default
-description: Will Townes is a postdoctoral researcher in Computer Science at Princeton University
+description: Will Townes, Assistant Professor of Statistics at Carnegie Mellon
 ---
 
 #### Bio Sketch
-I am a postdoctoral researcher focused on biomedical data science. I work with [Barbara Engelhardt](http://beehive.cs.princeton.edu/) in the Princeton Computer Science Department. My academic background is:
-
-* Ph.D. [Biostatistics](https://www.hsph.harvard.edu/biostatistics/), Harvard University. Advised by [Rafael Irizarry](http://rafalab.dfci.harvard.edu/).
-* M.S. [Math and Statistics](http://mathstat.georgetown.edu/), Georgetown University. Completed while working full-time as a software tester.
-* Tropical Ecology research in Bataan, Philippines on a Fulbright grant.
-* B.S. [Biology](http://www.wlu.edu/biology-department), Washington &amp; Lee University. Studied abroad in [Monteverde](http://www.ciee.org/study-abroad/costa-rica/monteverde/tropical-ecology-conservation/), Costa Rica.
-
-My favorite programming languages are [python](https://www.python.org/) and [R](https://www.r-project.org/).
+I am an Assistant Professor in the Department of [Statistics and Data Science](https://www.cmu.edu/dietrich/statistics-datascience/index.html) at Carnegie Mellon University. I work on infectious disease modeling as part of the [Delphi Group](https://delphi.cmu.edu/). My research interests also include wearable devices, genomics, and spatial statistics. Prior to joining CMU, I was a computer science postdoc with [Barbara Engelhardt](https://beehive.cs.princeton.edu/people/) at Princeton and a biostatistics Ph.D. student advised by [Rafael Irizarry](http://rafalab.dfci.harvard.edu/) at Harvard. In the more distant past I have also worked as a software tester and conducted tropical ecology fieldwork in Costa Rica and the Philippines. 
 
 <!--[Curriculum Vitae ![CV as pdf](static/pdf-icon.png)]({{ BASE_PATH }}/static/Townes_curriculum_vitae.pdf)
 
@@ -23,8 +16,8 @@ My favorite programming languages are [python](https://www.python.org/) and [R](
 <div class="container">
 <h4><a name="contact"></a>contact</h4>
     <div id="hide_email">
-            <code>wil</code><b>I</b><code>l.town</code><b>don't</b><code>es@</code><b>want</b><code>gma</code><b>spam!
-            </b><code>il.c</code><b>So</b><code>om</code><br/>
+            <code>fto</code><b>I</b><code>wnes@</code><b>don't</b><code>andr</code><b>want</b><code>ew.cm</code><b>spam!
+            </b><code>u.e</code><b>So</b><code>du</code><br/>
             </div>
     <div id="twitter">
     <a href="https://twitter.com/will_townes">@will_townes</a>
