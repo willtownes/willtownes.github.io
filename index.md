@@ -5,7 +5,7 @@ description: Will Townes, Assistant Professor of Statistics at Carnegie Mellon
 ---
 
 #### Bio Sketch
-I am an Assistant Professor in the Department of [Statistics and Data Science](https://www.cmu.edu/dietrich/statistics-datascience/index.html) at Carnegie Mellon University. I work on infectious disease modeling as part of the [Delphi Group](https://delphi.cmu.edu/). My research interests also include wearable devices, genomics, and spatial statistics. Prior to joining CMU, I was a computer science postdoc with [Barbara Engelhardt](https://beehive.cs.princeton.edu/people/) at Princeton and a biostatistics Ph.D. student advised by [Rafael Irizarry](http://rafalab.dfci.harvard.edu/) at Harvard. In the more distant past I have also worked as a software tester and conducted tropical ecology fieldwork in Costa Rica and the Philippines. 
+I am an Assistant Professor in the Department of [Statistics and Data Science](https://www.cmu.edu/dietrich/statistics-datascience/index.html) at Carnegie Mellon University. I work on infectious disease tracking as part of the [Delphi Group](https://delphi.cmu.edu/). My research interests also include wearable devices, genomics, and spatial statistics. Prior to joining CMU, I was a computer science postdoc with [Barbara Engelhardt](https://www.stanfordgladstonebeehive.com/) at Princeton and a biostatistics Ph.D. student advised by [Rafael Irizarry](http://rafalab.dfci.harvard.edu/) at Harvard. In the more distant past I have also worked as a software tester and conducted tropical ecology fieldwork in Costa Rica and the Philippines. 
 
 <!--[Curriculum Vitae ![CV as pdf](static/pdf-icon.png)]({{ BASE_PATH }}/static/Townes_curriculum_vitae.pdf)
 
@@ -21,6 +21,9 @@ I am an Assistant Professor in the Department of [Statistics and Data Science](h
             </div>
     <div id="twitter">
     <a href="https://twitter.com/will_townes">@will_townes</a>
+    </div>
+    <div id="bluesky">
+    <a href="https://staging.bsky.app/profile/willtownes.bsky.social">@willtownes.bsky.social</a>
     </div>
 
             
