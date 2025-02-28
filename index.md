@@ -10,7 +10,7 @@ I am an Assistant Professor in the Department of [Statistics and Data Science](h
 #### Students
 
 * Gabrielle Thivierge
-* Julia Elrod
+* [Julia Elrod](https://juliakelrod.com)
 * [Anna Rosengart](https://aerosengart.github.io)
 
 
