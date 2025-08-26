@@ -20,7 +20,7 @@ A further complicating factor is the rapidly increasing number of papers being s
 
 ### Paying the referees
 
-I have often wondered if referees should be paid directly for their service. While many researchers may be primarily motivated by curiosity rather than money, at the margin monetary compensation could speed up the review times. Furthermore, if authors were required to pay a small fee just to submit their paper, it might encourage them to only submit the paper to the most suitable journal rather than the highest status journal. A possible proposal would be to have the authors pay \$20 per article submitted. If about 20% of the submitted papers progress to peer review, that would mean two referees could be paid \$50 each for the review. The payment amount could be reduced if the review was not turned in on time. The fee could be on a sliding scale to avoid blocking researchers with financial hardships.
+I have often wondered if referees should be paid directly for their service. While many researchers may be primarily motivated by curiosity rather than money, at the margin monetary compensation could speed up the review times. Furthermore, if authors were required to pay a small fee just to submit their paper, it might encourage them to only submit the paper to the most suitable journal rather than the highest status journal. A possible proposal would be to have the authors pay \\$20 per article submitted. If about 20% of the submitted papers progress to peer review, that would mean two referees could be paid \\$50 each for the review. The payment amount could be reduced if the review was not turned in on time. The fee could be on a sliding scale to avoid blocking researchers with financial hardships.
 
 ### Other considerations
 
