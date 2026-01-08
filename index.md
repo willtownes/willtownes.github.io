@@ -12,6 +12,9 @@ I am an Assistant Professor in the Department of [Statistics and Data Science](h
 * [Gabrielle Thivierge](https://gthivierge.github.io)
 * [Julia Elrod](https://juliakelrod.com)
 * [Anna Rosengart](https://aerosengart.github.io)
+* [Erin Franke](https://efranke22.github.io)
+* Oliver Hannaoui
+* Alice Zhang (co-advised with Kathryn Roeder)
 
 
 
